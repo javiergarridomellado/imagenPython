@@ -7,6 +7,7 @@ RUN mkdir /datos
 #WORKDIR
 WORKDIR /datos
 RUN touch f1.txt
+RUN touch prueba.txt
 
 #COPY
 COPY index.html .
